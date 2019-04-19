@@ -18,7 +18,7 @@ class data2mysql:
 			                          password=mysql_config.get('mysql_pass'), port=3306,
 			                          db=mysql_config.get('mysql_db'), charset='utf8')
 		else:
-			self.db = pymysql.connect(host='127.0.0.1', user='root', password='1995ruicheng', port=3306, db='2019tencentCTR',
+			self.db = pymysql.connect(host='127.0.0.1', user='root', password='***', port=3306, db='2019tencentCTR',
 			                          charset='utf8')
 		self.cursor = self.db.cursor()
 
