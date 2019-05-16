@@ -20,4 +20,4 @@ class dataConfig:
 		self.ad_operation_columns = ['ad_id','create/change_time','operation_type','change_field','field_after_change']
 		self.ad_static_feature_columns = ['ad_id','create_time','account_id','commodity_id','commodity_type','industry_id','source_type']
 		self.user_feature_columns = ['user_id','age','gender','area','status','education','consuption_ability','device','work','connection_type','behavior']
-		self.test_columns = ['sample_id','ad_id','create_time','source_type','industry_id','commodity_type','commodity_id','account_id','feed_time','feed_people','ad_bid']
+		self.test_columns = ['sample_id','ad_id','create_time','ad_shape','industry_id','commodity_type','commodity_id','account_id','feed_time','feed_people','ad_bid']
